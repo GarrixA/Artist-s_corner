@@ -1,9 +1,9 @@
-// import { useState } from "react";
+import { useState } from "react";
 
 function App() {
-  // const [count, setCount] = useState(0);
-  // const mar = 30;
-  // const text = "Let's go somewhere";
+  const [count, setCount] = useState(0);
+  const mar = 30;
+  const text = "Let's go somewhere";
 
   return (
     <>
