@@ -1,4 +1,10 @@
+import { useState } from "react";
+
 function App() {
+  const [count, setCount] = useState(0);
+  const mar = 10;
+  const text = "Let's go somewhere";
+
   return (
     <>
       <div className="bg-red-500">
