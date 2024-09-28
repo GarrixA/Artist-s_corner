@@ -3,8 +3,8 @@ import RecentlyAddedCard from "./common/RecentlyAddedCard";
 
 const RecentlyAdded = () => {
   return (
-    <div>
-      <div>
+    <div className="">
+      <div className="">
         <h1 className="text-2xl font-black py-8">Recently Added Post</h1>
         <div className="grid grid-cols-4">
           {recentlyAddedData
